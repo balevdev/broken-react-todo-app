@@ -4,7 +4,7 @@ This application was intentionally broken, there are six critical issues that a 
 
 Started looking at my eslint warnings one by one
 1. Fix an ability to display all tasks.
-file: app.jsx
+`` file: app.jsx ``
 Add the dummy context to initial state, and pass setTodo(was also unused)
 
 2. Fix a layout, checkboxes should be listed in a column.
@@ -12,19 +12,19 @@ Add the dummy context to initial state, and pass setTodo(was also unused)
 Scss file was just missing the flex-direction
 
 3. Fix an ability to add a new task.
-file: todo-form.jsx 
+``file: todo-form.jsx ``
 I had to check size of curent todos  array (if is not 0) and update accordingly id and data
 
 4. Fix an ability to toggle a task.
-file: todo-list.jsx
+`` file: todo-list.jsx ``
 Used a todos.map to found the task I need to toggle
 
 5. Fix an ability to delete a task.
-file: todo-list.jsx
+`` file: todo-list.jsx ``
 Simple filter !== id does the trick here 
 
 6. Fix an ability to count completed tasks.
-file: todo-results.jsx
+`` file: todo-results.jsx ``
 Context was misisng so I added it
 Just had to grab the length of filtered array with criteria: checked value true 
 
