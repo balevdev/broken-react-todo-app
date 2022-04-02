@@ -8,7 +8,7 @@ file: app.jsx
 Add the dummy context to initial state, and pass setTodo(was also unused)
 
 2. Fix a layout, checkboxes should be listed in a column.
-file: todo-list.jsx
+`` file: todo-list.jsx `` 
 Scss file was just missing the flex-direction
 
 3. Fix an ability to add a new task.
